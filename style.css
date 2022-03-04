@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: wheat;
+  font-family: "Common Pixel", sans-serif;
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  background-image: url("background.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  transform: scale(2);
+}
+.start {
+  border: 2px solid black;
+  border-radius: 0;
+  background-color: rgb(218, 215, 208);
+  font-family: "Common Pixel", sans-serif;
+}
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  background-color: black;
+  border: 10px solid #16324c;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.snake {
+  background-color: rgb(53, 222, 0);
+}
+
+.apple {
+  background-color: rgb(253, 0, 0);
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Common Pixel", sans-serif;
+}
